@@ -45,6 +45,9 @@ int playNotes(int val) {
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
+  while (!Serial){
+    ;
+  }
   pinMode(buzPin, OUTPUT);
   pinMode(potRead, INPUT);
 }
