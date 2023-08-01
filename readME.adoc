@@ -1,0 +1,68 @@
+== Working With Active Buzzers
+
+:Project: Using an active buzzer and a potentiometer to produce a buzz.
+:Author: Jason Sikes
+:AKA: TechRancher
+:Email: https://id.arduino.cc/sikesjay
+:Date: July 31, 2023
+:Revision: 1
+
+Title of this project is: {project}
+
+Author is {author}
+
+Also known as: {aka}
+
+Written on: {date}
+
+Version: {revision}
+
+.Description of the project
+We will use the active buzzer and a potentiometer to make the active buzzer
+buzz at different potentiometer levels. We will also change the delay time to 
+make the active buzzer produce different frequencies of buzzing.
+
+.Items Needed
+* One 10k Ohm potentiometer
+* One TMB12A05 Active Buzzer
+* One Arduino R3 
+* One Breadboard
+* Seven jumper wires
+
+.Circuit Design
+On the breadboard I installed the active buzzer postive leg at column 15 and the
+negative leg to column 18. I installed the left leg of the 10k ohm potentiometer 
+in column 30, with the middle leg into column 32, and the right leg into column
+34. Now it is time to run the jumper wires. I ran the GND from the Arduino R3 GND
+to the GND rail. Jumper wire from pin 8 on the Arduino to column 15. Jumper wire
+5V on the Arduino to positive rail on breadboard. Jumper wire from pin A0 on the
+Arduino to column 32. I ran jumper wire from GND on rail to column 18. Jumper wire 
+from positive rail to column 30. Then the last jumper wire from GND rail to column
+34. This should close the circuit.
+
+.Thumbnail
+image:file:///home/jay/Arduino/practiceCode/WorkingBuzzer/CircuitLayout.png[
+"KiCad Schematic",
+link="file:///home/jay/Arduino/practiceCode/WorkingBuzzer/CircuitLayout.png"]
+
+
+.Code
+The code for this project is in the file called "WorkingBuzzer.ino".
+
+.What To Expect
+Once the code is done and you upload to the Arduino, you are ready to turn the 
+potentiometer to see if your active buzzers buzzes at you. We coded Serial.println
+to display the potentiometer's value so you can see if and when the buzzer changes
+frequencies. You can go and change the delay times to make the frequencies change.
+Not much other then hearing the buzzing change pitch to this circuit, but still 
+good practice to work on wiring and coding. Good refresher for how to read the 
+potentiometer's value differents and make something change do to it.
+
+.Licensing Of Code
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+.Contact Me
+If you have any questions feel free to contact me at: {email}
