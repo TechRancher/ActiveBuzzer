@@ -1,5 +1,5 @@
 /*
-  To lear more about this code check out the readME.adoc
+  To learn more about this code check out the readME.adoc
 */
 // Headers
 // Variables
