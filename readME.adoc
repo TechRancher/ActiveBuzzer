@@ -41,9 +41,9 @@ from positive rail to column 30. Then the last jumper wire from GND rail to colu
 34. This should close the circuit.
 
 .Thumbnail
-image:https://github.com/TechRancher/ActiveBuzzer/CircuitLayout.png[
+image:https://github.com/TechRancher/ActiveBuzzer/blob/main/CircuitLayout.png[
 "KiCad Schematic",
-link="https://github.com/TechRancher/ActiveBuzzer/CircuitLayout.png"]
+link="https://github.com/TechRancher/ActiveBuzzer/blob/main/CircuitLayout.png"]
 
 
 .Code
